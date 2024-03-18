@@ -27,12 +27,12 @@ function App() {
   return (
     <>
       <body className="h-screen bg-black bg-no-repeat overflow-hidden flex justify-center items-center">
-        <div className="h-[300px] w-[40rem] rounded-2xl bg-white flex align-middle overflow-hidden">
+        <div className="h-[300px] w-[40rem] bg-gray-300 rounded-md bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-40 flex align-middle overflow-hidden">
           <div>{render()}</div>
           <div className="flex flex-col pr-5 mt-8">
-            <div className="text-2xl font-libre">SUZUKI GSX S150</div>
-            <div className="text-black">SRP: P112,800</div>
-            <div className="text-xs text-justify">
+            <div className="text-2xl text-white font-libre">SUZUKI GSX S150</div>
+            <div className="text-white">SRP: P112,800</div>
+            <div className="text-xs text-justify text-white">
               The Suzuki GSX-S150 streetfighter bike sits alongside its GSX-R150
               sibling—both are Suzuki’s tributes to the GSX-R sport bike
               nameplate dating back to the 80s. The S150 promises to be as
